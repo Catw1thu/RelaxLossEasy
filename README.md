@@ -1,7 +1,6 @@
 # RelaxLoss
 This is a minimal implementation of the ICLR 22 paper titled [RelaxLoss: Defending Membership Inference Attacks without Losing Utility](https://openreview.net/forum?id=FEDfGWVZYIn).
-Paper introduces a defense against [membership inference attacks (MIA)](https://arxiv.org/abs/1610.05820) by introducing an algorithm that makes loss distributions 
-of member (train) and non-member (test) samples similar. I was able to replicate this effect (depicted in Figure 1 of the paper).
+Paper introduces a defense against [membership inference attacks (MIA)](https://arxiv.org/abs/1610.05820) by developing an algorithm that makes loss distributions of member (train) and non-member (test) samples similar. I was able to replicate this effect (depicted in Figure 1 of the paper).
 
 
 <img src="plots/default.png" width="320" />  <img src="plots/alpha_05.png" width="320"/> <img src="plots/alpha_1.png" width="320"/> 
