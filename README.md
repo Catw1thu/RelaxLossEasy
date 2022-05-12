@@ -10,7 +10,7 @@ From left-to-right: Default training, RelaxLoss with α=0.5, RelaxLoss with α=1
 Simply run ```src/runner.sh``` to replicate those results. Code is also available in notebook format in ```notebooks/RelaxLoss.ipynb```.
 
 I've also tested the algorithm against a simple [loss thresholding attack](https://arxiv.org/abs/1709.01604). Briefly, you know the avg. training loss of the model,
-and you predict a sample 'member' if **sample loss < avg. training loss**. Concretely, a single run on CIFAR10 yielded the following results.
+and you predict a sample 'member' if **sample loss < avg. training loss**. Concretely, a single run on [CIFAR10](https://www.cs.toronto.edu/~kriz/cifar.html) yielded the following results.
 
 
 
