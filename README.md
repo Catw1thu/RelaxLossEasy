@@ -1,5 +1,5 @@
 # RelaxLoss
-This is a minimal implementation of the ICLR 22 paper titled [RelaxLoss: Defending Membership Inference Attacks without Losing Utility](https://openreview.net/forum?id=FEDfGWVZYIn).
+This is a minimal implementation of the ICLR 22 paper titled [RelaxLoss: Defending Membership Inference Attacks without Losing Utility](https://openreview.net/forum?id=FEDfGWVZYIn) in PyTorch 1.1.
 Paper introduces a defense against [membership inference attacks (MIA)](https://arxiv.org/abs/1610.05820) by developing an algorithm that makes loss distributions of member (train) and non-member (test) samples similar. I was able to replicate this effect (depicted in Figure 1 of the paper).
 
 
