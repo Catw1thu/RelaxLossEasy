@@ -3,7 +3,7 @@ This is a minimal implementation of the ICLR 22 paper titled [RelaxLoss: Defendi
 Paper introduces a defense against [membership inference attacks (MIA)](https://arxiv.org/abs/1610.05820) by developing an algorithm that makes loss distributions of member (train) and non-member (test) samples similar. I was able to replicate this effect (depicted in Figure 1 of the paper).
 
 
-<img src="plots/default.png" width="310" />  <img src="plots/alpha_05.png" width="310"/> <img src="plots/alpha_1.png" width="310"/> 
+<img src="plots/default.png" width="250" />  <img src="plots/alpha_05.png" width="250"/> <img src="plots/alpha_1.png" width="250"/> 
 
 From left-to-right: Default training, RelaxLoss with α=0.5, RelaxLoss with α=1.0.
 
