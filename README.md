@@ -4,7 +4,7 @@ Paper introduces a defense against [membership inference attacks (MIA)](https://
 of member (train) and non-member (test) samples similar. I was able to replicate this effect (depicted in Figure 1 of the paper).
 
 
-<img src="plots/default.png" width="330" />  <img src="plots/alpha_05.png" width="330"/> <img src="plots/alpha_1.png" width="330"/> 
+<img src="plots/default.png" width="320" />  <img src="plots/alpha_05.png" width="320"/> <img src="plots/alpha_1.png" width="320"/> 
 
 From left-to-right: Default training, RelaxLoss with α=0.5, RelaxLoss with α=1.0.
 
