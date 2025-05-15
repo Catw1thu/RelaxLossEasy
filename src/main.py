@@ -35,6 +35,11 @@ te_loader = DataLoader(te_ds, batch_size=args.bs, shuffle=False, num_workers=arg
 
 
 # model & loss & etc.
+# 在 main.py 中, model.to(args.device) 之前
+print(f"Value of args.device: {args.device}")
+print(f"torch.cuda.is_available(): {torch.cuda.is_available()}")
+print(f"torch.cuda.device_count(): {torch.cuda.device_count()}")
+
 model = models.resnet20().to(args.device)
 criterion = torch.nn.CrossEntropyLoss()
 #opt = optim.Adam(model.parameters())
