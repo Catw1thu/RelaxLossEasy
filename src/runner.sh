@@ -7,8 +7,8 @@ echo 'Calling scripts!'
 
 python main.py &
 
-python main.py --relax_alpha=0.5 --device=cuda:1 &
-python main.py --relax_alpha=1.0 --device=cuda:1
+python main.py --relax_alpha=0.5 --device=cuda:0 &
+python main.py --relax_alpha=1.0 --device=cuda:0
 
 
 
